@@ -16,8 +16,9 @@
 #btnh{
     color: azure;
 }
-#btnColor{
-    color: lightblue;
+.bgColor{
+    background-color: lightskyblue;
+    color:black;
 }
 #botonMenu{
     width: auto;
@@ -45,12 +46,32 @@
     color: lightskyblue;
 
 }
-
+.titulo{
+    font-size: 2.5em;
+    font-weight: 600;
+    
+    
+    
+}
+.estilo{
+    margin-left: 0.5em;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+    
+}
+.estilo2{
+    text-align: center;
+    
+}
+.estilo3{
+    color: lightslategray;
+}
 .textoimportante{
     margin-left: 10px;
     color: white;
-    
-   
 }
 .redesFooter{
     display: flex;
@@ -63,9 +84,9 @@
     
 
 }
-.redesFooter h3{
+.redesFooter h4{
     padding: auto;
-    color: aliceblue;
+    color: azure;
     font-size: 15px;
     
     
@@ -111,14 +132,14 @@
 } 
 
 .novedades{
-    width: 100%;
-    height: auto;
-
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(10, 20vh) ;
     gap:4px;
-    margin-top: 10px;
+    
 
  grid-template-areas: 
 "box1"
