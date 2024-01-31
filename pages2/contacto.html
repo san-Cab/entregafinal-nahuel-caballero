@@ -11,10 +11,10 @@
 </head>
 <body>
     <!-- comienza nav -->
-    <div class="imgImportante img-fluid">
-      <nav class="navbar navbar-expand-md navegar btnh">
+    <nav class="imgImportante img-fluid ">
+      <div class="navbar navbar-expand-md navegar btnh">
          <div class="container-fluid">
-           <a class="navbar-brand" href="../index.html"> <img src="../img2/logotransparente1.png" alt="logo la guardia redes"></a>
+           <a class="navbar-brand" href="../index.html"> <img class="animacion" src="../img2/logotransparente1.png" alt="logo la guardia redes"></a>
            <button id=btnh class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <img id=botonMenu src="../img2/menucolor2.png" alt="boton menu">
            </button>
@@ -36,40 +36,65 @@
              </ul>
            </div>
          </div>
-       </nav>
+       </div>
        <div class = "textoimportante">
-         <h1 class="text-sm-center text-md-start" >Contacto</h1>
+         <h1 class="text-sm-center " >Contactanos</h1>
          <div><a href="#" class="btn bgColor mb-2">Pedi tu presupuesto ahora</a> </div>
      </div>
-     </div>
+     </nav>
      <!-- fin nav -->
 
+    <!-- abre main -->
      <main class="container-fluid" >
-      <h2 class="text-center mt-3 mb-4 titulo">Tabajo 100% Argentino</h2>
-      </main>
+      <header><h2 class="text-center mt-3 mb-4 ">Si tenes una consulta, escribinos por medio del siguiente formulario.</h2></header>
       
-      <section class=" estilo">
-        <div class="card text-bg-dark col-sm-12 col-md-7 ">
-          <img src="../img2/novedadesimg/redpesca.webp" class="card-img" alt="...">
+
+      <section class="mx-auto col-sm-12 col-md-6">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="direccion@email.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Número">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <button type="submit" class="btn bgColor">Enviar</button>
+      </div>
+      </section>
+
+    </main>
+<!-- cierra main -->
+      <section class="estilo">
+        <div class="card text-bg-dark col-sm-12 col-md-6 col-lg-6 ">
+          <img src="../img2/novedadesimg/redpesca.webp" class=" card-img" alt="...">
           <div class="card-img-overlay">
-            <h4 class="card-title">¿Necesitas un presupuesto?</h4>
-            <p class="card-text">Envianos un mensaje y obtené <br> todo para tu nuevo proyecto</p>
-            <div><a href="../pages2/contacto.html" class="btn mb-2 bgColor">LLamanos ahora</a> </div>
+            <h3 class="card-title">¿Necesitas un presupuesto?</h3>
+            <p class="card-text">Tenemos todo <br> para tu nuevo proyecto</p>
+            </div>
           </div>
-        </div>
-      
-      <div class="text col-sm-12 col-md-5 estilo2">
-        <h4 class="titulo">Fabricación y calidad</h4> 
-        <p class="estilo3" >Tramallos, contencion para aves de corral y mas...</p></div>
-        
-    </section>
-      
+    
+      <div class="text col-sm-12 col-md-6 col-lg-6 estilo2 mt-2">
+        <h4 class="titulo">Trabajo 100% Argentino</h4> 
+        <p class="estilo3" >Envianos un mensaje ahora</p>
+      </div>
+        </section>
+         
+        <div class="estilo mx-auto" ><a href="./pages2/contacto.html" class="btn mb-2 bgColor">LLamanos ahora</a></div>
 
      <!-- abre pie -->
      <footer >
       <nav class="redesFooter">
         <div class="footer1"> <a href="../index.html"> <img id="logoFooter" src="../img2/logotransparente2.png" alt="logo de la guardia redes"></a>
-        <h4>Especializados en <br> fabricación y colocacion <br> Sabemos de redes</h4>
+        <h5>Especializados en <br> fabricación y colocacion <br> Sabemos de redes</h5>
         </div>
         
         <div class="footer2">
