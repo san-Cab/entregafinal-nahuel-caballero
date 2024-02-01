@@ -5,12 +5,12 @@
     padding: 0;
     margin: 0;
     
-}
+} 
 .animacion:hover{
 transform: scale(1.1);
 transition: all 1.9s;
 cursor: pointer;
-}
+} 
 .imgImportante{
 
     background: linear-gradient(rgba(25, 27, 32, 0.50), rgba(25, 27, 32, 0.50)), 
@@ -30,12 +30,7 @@ cursor: pointer;
     width: auto;
     height: 2em;
 }
-.iconos{
-    width: 2em;
-    height: auto;
-    margin-left:1em;
-    margin-top: 1em;
-}
+
 
 .navegar img{
    width: auto;
@@ -51,13 +46,10 @@ cursor: pointer;
 .lista li a:hover{
     color: lightskyblue;
 
-}
+} 
 .titulo{
     font-size: 1em;
     font-weight: 600;
-    
-    
-    
 }
 .estilo{
     margin-left: 0.5em;
@@ -74,9 +66,7 @@ cursor: pointer;
     text-align: center;
     
 }
-.estilo3{
-    color: lightslategray;
-}
+
 
 .textoimportante{
     margin-left: 10px;
@@ -91,22 +81,9 @@ cursor: pointer;
     justify-content: space-around;
     background-color: rgb(51, 60, 87);
     
-
-}
-.redesFooter h4{
-    padding: auto;
-    color: azure;
-    font-size: 15px;
-    
-    
-
+ 
 } 
-#logoFooter{
-    width: 15vh;
-    height: auto;
-    margin: 1em;
-    
-}
+
 .redesFooter img{
     width: 1em;
     height: auto;
@@ -117,28 +94,28 @@ cursor: pointer;
     flex-direction: column;
     align-items: center;
   
-}
+} 
 .footer3{
     background-color:gray;
     width: 100%;
     height: auto;
     text-align: center;
-}
+} 
 .footer3 p{
     color: aliceblue;
-}
+} 
 .novedades img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} 
 .parrafoImportante{
     
     color: lightslategray;
     text-align: center;
     font-size:0.8em;
    
-} 
+}  
 
 .novedades{
     width: 85%;
@@ -161,10 +138,10 @@ cursor: pointer;
 "box8"
 "box9"
 "box10";
-}
+} */
 
 
-.novedades .box1{
+ .novedades .box1{
     grid-area: box1;
 }
 .novedades .box2{
@@ -263,4 +240,31 @@ cursor: pointer;
         "box5 box7 box6"
         "box8 box9 box10";
     }  
+
+
+
+
+}
+.iconos{
+    width: 2em;
+    height: auto;
+    margin-left:1em;
+    margin-top: 1em;
+}
+.estilo3{
+    color: lightslategray;
+}
+.redesFooter h4{
+    padding: auto;
+    color: azure;
+    font-size: 15px;
+    
+    
+
+} 
+#logoFooter{
+    width: 15vh;
+    height: auto;
+    margin: 1em;
+    
 }

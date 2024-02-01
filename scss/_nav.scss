@@ -1,0 +1,74 @@
+//nav - nesting
+.imgImportante{
+    background: linear-gradient(rgba(25, 27, 32, 0.50), rgba(25, 27, 32, 0.50)), 
+    url(../img2/fondo2.jpg.jpg);
+    background-position: center;
+    background-size: cover ;
+    img{
+        width: auto;
+        height: $xxl;
+        &:hover{
+            transform: scale(1.1);
+            transition: all 1.9s;
+            cursor: pointer; 
+        }
+    }
+    button{
+        color:$white;
+        img{
+        width: auto;
+        height:$l; 
+        }
+    }
+    ul{
+        a{
+            color:$white;
+            &:hover{
+                color:$mainColor
+            } 
+
+        }
+    }
+article{
+    a{
+    background-color: $mainColor;
+    color:$black;
+    }
+}
+
+}
+.redesfooter{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color:$ColorC;
+     div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    img{
+        width: 15vh;
+        height: auto;
+        margin: $s;
+    }
+    article{
+        svg{
+            width: $s;
+            height: auto;
+            margin: 5px;
+        }
+    }
+    .footer3{
+        background-color:$ColorC;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    p{
+        color: $white
+    }
+}

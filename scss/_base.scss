@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+//vars
+$fuenteA:'Hedvig Letters Sans', sans-serif;
+ //weights
+ $pesoTsm:300;
+ $pesoTmd:400;
+ $pesoTlg:600;
+ //color
+ $mainColor:lightskyblue;
+ $colorB:lightslategray;
+$ColorC:rgb(51, 60, 87);
+$white:rgb(228, 222, 222);
+$black:rgb(20, 19, 19);
+//size-tamaño
+$xs:0,5em;
+$s:1em;
+$m:1,5;
+$l:2em;
+$xl:4em;
+$xxl:6em;
+//comun al proyecto
+*{
+    font-family: $fuenteA;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ } 
+
+ h1{
+    color:$white;
+    margin-left:$s;
+    
+}
+h2 h4{
+    font-size: $m;
+    font-weight:$pesoTlg;
+    color:$black;
+}
+h3{
+font-size: $s;
+font-weight: $pesoTmd;
+color:$black;
+}
+h5{
+color: $white;
+font-size: $xs;
+}
+p{
+    color:$colorB
+}
+//section p{
+    //color:$white;
+//}
+
+
