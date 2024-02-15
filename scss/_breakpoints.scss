@@ -1,0 +1,61 @@
+
+@media(width >=420px){
+    .redesFooter{
+        @include flex(row,nowrap,space-around ,center,center);
+    } 
+}
+@media(width >= 600px){
+    .novedades{
+        @include grid(1fr 2fr,repeat(5,30vh));
+        grid-template-areas: 
+        "box1 box2"
+        "box1 box3"
+        "box1 box4"
+        "box5 box6"
+        "box7 box6"
+        "box8 box6"
+        "box10 box9";
+    }
+    .parrafoImportante{
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        color: lightslategray;
+        font-size: 1.5em;
+        text-align: center;
+}
+.redesFooter img{
+    width: 1em;
+    height: auto;
+    margin: 15px;
+}
+.terminos{
+    a{
+        font-size:13px;
+    }
+}
+}
+@media (width >=768px){
+    .estilo{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .titulo{
+        font-size: 2em;
+        font-weight: 600;
+         
+    }
+}
+
+@media (width >= 1024px){
+    .novedades{
+        @include grid(1fr 2fr 1fr,repeat(4, 40vh));
+        grid-template-areas:
+        "box1 box2 box3"
+        "box1 box4 box3"
+        "box5 box7 box6"
+        "box8 box9 box10";
+    }  
+}

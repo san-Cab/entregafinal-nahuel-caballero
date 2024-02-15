@@ -9,7 +9,7 @@ $fuenteA:'Hedvig Letters Sans', sans-serif;
  $mainColor:lightskyblue;
  $colorB:lightslategray;
 $ColorC:rgb(51, 60, 87);
-$white:rgb(228, 222, 222);
+$white:rgb(243, 243, 243);
 $black:rgb(20, 19, 19);
 //size-tamaño
 $xs:0,5em;
@@ -43,13 +43,50 @@ color:$black;
 }
 h5{
 color: $white;
-font-size: $xs;
+font-size:15px;
 }
-p{
-    color:$colorB
+main{
+    figure{
+    img{
+        width: 2em;
+        height: auto;
+        margin-left:1em;
+        margin-top: 1em;
+    }
+    }
 }
-//section p{
-    //color:$white;
-//}
+.estilo{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-
+}
+.estilo2{
+         text-align: center;
+         margin-left: $s;
+         margin-right: $s;
+}
+.fondocard{
+    background-color: rgb(241, 247, 250);
+}
+.errorPage{
+    background-image: url(../img2/404/maxresdefault8-e1460828369318.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color:$white;
+        &:hover{
+            color: $mainColor;
+        }
+    }
+}

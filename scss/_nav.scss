@@ -1,9 +1,9 @@
 //nav - nesting
 .imgImportante{
-    background: linear-gradient(rgba(25, 27, 32, 0.50), rgba(25, 27, 32, 0.50)), 
-    url(../img2/fondo2.jpg.jpg);
-    background-position: center;
-    background-size: cover ;
+            background: linear-gradient(rgba(25, 27, 32, 0.50), rgba(25, 27, 32, 0.50)), 
+            url(../img2/fondo2.jpg.jpg);
+            background-position: center;
+            background-size: cover ;
     img{
         width: auto;
         height: $xxl;
@@ -12,7 +12,7 @@
             transition: all 1.9s;
             cursor: pointer; 
         }
-    }
+       }
     button{
         color:$white;
         img{
@@ -29,46 +29,66 @@
 
         }
     }
-article{
-    a{
+}
+.btnBase{
     background-color: $mainColor;
+    margin-left: 1.5em;  
+    &:hover{
+        color:$white;
+        border-color: $mainColor;
+    }
+}
+.btnSecond{
+    @extend .btnBase;
+    margin-top:15px ;
+    margin-bottom:15px ;
+    &:hover{
+        background-color:rgb(19, 139, 19);
+        border-color:rgb(19, 139, 19);
+}
+}
+.btnForm{
+    @extend .btnBase;
+  &:hover{
     color:$black;
+  }
+    
+}
+//abre footer
+
+.redesFooter{
+    @include flex(column,wrap,space-around ,center,center);
+    background-color: $ColorC;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    img{
+        width: 5em;
+        height: auto;
+        margin: $s;
+    }
+}
+
+.footer2{
+    flex-direction: row;
+    img{
+        width: $s;
+        height: auto;
+        margin: 5px;
+        margin-bottom: 15px;
     }
 }
 
 }
-.redesfooter{
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    background-color:$ColorC;
-     div{
-        display: flex;
-        flex-direction: column;
-        align-items: center;  
+.terminos{
+    color: $black;
+    justify-content:center;
+    font-size:10px;
+    margin-bottom: 10px;
+    a{
+        &:hover{
+        color:$white;
     }
-    img{
-        width: 15vh;
-        height: auto;
-        margin: $s;
-    }
-    article{
-        svg{
-            width: $s;
-            height: auto;
-            margin: 5px;
-        }
-    }
-    .footer3{
-        background-color:$ColorC;
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    p{
-        color: $white
-    }
+}
 }
