@@ -36,16 +36,16 @@ Hoy, finalizado el curso, llego a la conclusión de que estos dos mundos se encu
 - Netifly
 
 # Caracteristicas y proceso
-LGR fue pensado desde un principio para dar a conocer nuestro trabajo asi como las caracteristicas de los materiales y la posibilidad de llegar a los posibles clientes de manera directa a traves de las redes sociales y de nuestro whatsapp.
+LGR fue pensado desde un principio para dar a conocer nuestro trabajo así como las características de los materiales y la posibilidad de llegar a los posibles clientes de manera directa a través de las redes sociales y de nuestro WhatsApp.
 
-- Utilizamos html5 y css3 para darle estructura y diseño a nuestras 5 paginas: inicio, Novedades, Nosotros, productos y contacto.
-- Pasamos por box model, incluimos flex-box y utilizamos Grid en la galeria que se encuentra en "Novedades"
-- el siguente paso fue lograr un diseño responsive
-- incluimos Boostrap al proyecto y si, fue genial.
-- sigue el controlador de versiones Git y sumamos Github para alojar los proyectos a nivel remoto
-- pateamos el tablero y pasamos TODO el proyecto a Sass, Un preprocesador CSS que nos permite generar, de manera automática, hojas de estilo con nuevas caracteristicas
-- finalmente registramos nuestro dominio y ponemos el proyecto en linea
-
+- Utilizamos HTML5 y CSS3 para darle estructura y diseño a nuestras 5 páginas: Inicio, Novedades, Nosotros, Productos y Contacto.
+- Pasamos por el modelo de caja (box model), incluimos Flexbox y utilizamos Grid en la galería que se encuentra en "Novedades".
+- El siguiente paso fue lograr un diseño responsive.
+- Incluimos Bootstrap en el proyecto y sí, fue genial.
+- Seguimos el controlador de versiones Git y sumamos GitHub para alojar los proyectos a nivel remoto.
+- Cambiamos el rumbo y pasamos TODO el proyecto a Sass, un preprocesador CSS que nos permite generar, de manera automática, hojas de estilo con nuevas características.
+- Finalmente, registramos nuestro dominio y ponemos el proyecto en línea.
+- 
 ## Autor
 
 👤 **Santiago Nahuel Caballero**
